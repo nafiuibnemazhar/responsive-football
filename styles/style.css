@@ -7,24 +7,38 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-  padding: 42px 156px 124px;
+}
+header {
+  background-color: #2d25a0;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 42px 156px 124px;
 }
 .nav-items ul {
   display: flex;
-  gap: 15px;
+  gap: 35px;
 }
 .nav-items ul li {
   list-style: none;
 }
 .nav-items,
-.login {
+.login-btn {
   font-size: 20px;
+  color: #fff;
 }
-.login {
+.login-btn {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+}
+.login-btn:hover {
+  background-color: #920639;
+  transform: scale(1.1);
+}
+.login-text {
   margin-left: 10px;
 }
