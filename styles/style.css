@@ -193,7 +193,7 @@ header {
   }
 
   .nav-item {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
   }
   .nav-item:hover {
     background-color: rgb(227, 242, 247);
@@ -225,10 +225,14 @@ header {
     padding: 0 10px;
     align-items: normal;
   }
+  .banner-cta {
+    width: 90%;
+  }
   .banner-cta h1 {
-    font-size: 32px;
+    font-size: 41px;
     font-weight: 700;
     line-height: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
   .banner-img img {
