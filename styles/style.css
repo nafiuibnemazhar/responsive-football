@@ -218,4 +218,25 @@ header {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
+  /* banner responsiveness */
+  .banner {
+    flex-direction: column;
+    padding: 0 10px;
+    align-items: normal;
+  }
+  .banner-cta h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .banner-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 43px;
+  }
+  .cta-btn {
+    padding: 10px;
+  }
 }
