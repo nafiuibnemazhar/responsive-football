@@ -279,4 +279,12 @@ main {
   .cta-btn {
     padding: 10px;
   }
+
+  /* player responsiveness */
+  .top-players {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 }
