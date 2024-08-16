@@ -101,7 +101,8 @@ main {
   line-height: 126px;
   margin-bottom: 20px;
 }
-.cta-btn {
+.cta-btn,
+.highlight-btn {
   width: fit-content;
   background-color: #e02c6d;
   padding: 10px 24px;
@@ -110,15 +111,18 @@ main {
   font-size: 20px;
   color: #ffffff;
 }
-.cta-btn:hover {
+.cta-btn:hover,
+.highlight-btn:hover {
   background-color: #ff8251;
   transform: scale(1.1);
 }
-.cta-btn a {
+.cta-btn a,
+.highlight-btn a {
   text-decoration: none;
   color: #ffffff;
 }
-.cta-btn-text span {
+.cta-btn-text span,
+.highlight-btn-text span {
   margin-right: 10px;
 }
 .banner-img img {
@@ -195,6 +199,7 @@ main {
 }
 .champion img:hover {
   transform: scale(1.06);
+  cursor: pointer;
 }
 .champion h3 {
   margin-top: 10px;
@@ -203,6 +208,39 @@ main {
 .champion p {
   margin-bottom: 10px;
 }
+
+/* Highlights section */
+
+.highlights {
+  display: flex;
+  width: 1440px;
+  margin-top: 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.highlight-cta {
+  width: 50%;
+  padding-right: 50px;
+}
+.highlight-title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+}
+.highlight-text {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.highlight-photo img {
+  width: 567px;
+  height: 427px;
+}
+
 /* ----------media queries----------
 ------------------------------------ */
 
