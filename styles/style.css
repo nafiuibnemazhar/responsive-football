@@ -246,12 +246,16 @@ main {
 .main-footer {
   display: flex;
   flex-direction: column;
-  margin-top: 85px;
+  margin-top: 95px;
+  padding: 30px;
   align-items: center;
 }
 .footer-logo img {
-  width: 348px;
+  width: 450px;
   height: 124px;
+}
+.footer-social {
+  margin-bottom: 15px;
 }
 .social-icons {
   display: flex;
@@ -376,5 +380,13 @@ main {
   }
   .highlight-title {
     font-size: 36px;
+  }
+  .footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer-logo img {
+    width: 70%;
+    height: auto;
   }
 }
